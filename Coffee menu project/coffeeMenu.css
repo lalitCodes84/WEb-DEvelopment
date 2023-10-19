@@ -1,0 +1,68 @@
+#parent{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 80%;
+    margin: auto;
+    gap: 25px;
+    padding: 25px;
+}
+.child{
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: rgba(121, 81, 6, 0.3) 0px 7px 29px 0px;
+    background-color:#fffeff;;
+    
+}
+.child>div{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.child>div>h1{
+    font-size: 15px;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.child>div+p{
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 0;
+    font-size: 13px;
+    font-weight: 400;
+    color: #7e7d7d;
+}
+.child>div>h1+h1{
+    color: #b58836;
+}
+
+/* Media query for small screen */
+
+@media all and (min-width: 350px) and (max-width: 520px){
+    #parent{
+    grid-template-columns: repeat(1,1fr);
+    margin: auto;
+}
+
+.child>div+p{
+    margin-top: 0;
+    font-size: 15px;
+   
+}
+
+}
+
+/* Media query for medium screen */
+
+@media all and (min-width: 521px) and (max-width: 1200px){
+    #parent{
+    grid-template-columns: repeat(2,1fr);
+    margin: auto;
+}
+
+.child>div+p{
+    margin-top: 0;
+    font-size: 15px;
+}
+}

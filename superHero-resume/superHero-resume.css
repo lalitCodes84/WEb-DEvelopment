@@ -1,0 +1,41 @@
+.resume{
+    width: 960px;
+    height: auto;
+    border: 1px solid black;
+    margin: auto;
+    background-color: #7c0a18;
+    
+}
+
+.heading{
+    text-align: center;
+    background-color: #23347a;
+}
+
+.optimus-details{
+    display: flex;
+    justify-content: space-around;
+}
+
+.optimus{
+    width: 450px;
+    height: auto;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+#optimus-image{
+    height: 1000px;
+    width: 450px;
+    
+}
+
+.image{
+    background-color: #677783;
+}
+
+.info{
+    background-color: #23347a;
+    color: white;
+    padding: 5px;
+}

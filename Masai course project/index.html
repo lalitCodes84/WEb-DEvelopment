@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Courses</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <style>
+        *{
+            font-family:'Poppins';
+        }
+        h1{
+            text-align: center;
+            font-size: 8vh;
+            margin-bottom: 0;
+            
+        }
+        .overview{
+            text-align: center;
+            font-size: 25px;
+            color: #3B3435;
+            margin-top: 0;
+        
+        }
+        span{
+            color: #ED0331;
+            display: inline-block;
+        }
+        img{
+            display: block;
+            width: 270px;
+
+        }
+        #courses{
+            display:flex;
+            justify-content:center;
+            height: 550px;
+            justify-content: space-around;
+            margin: 150px;
+            margin-top: 5%;
+            
+            
+        }
+        .course{
+            width: 400px;
+        }
+        h2{
+            font-size: larger;
+            margin-left: 40px;
+            margin-bottom: 0;
+        }
+        .job-ready{
+            margin-left: 40px;
+            color: #544D4F;
+            font-family: "Open Sans", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+            font-size: large;
+            margin-top: 0;
+        
+        }
+        hr{
+            width:80%;
+            color: #CECCCD;
+            size: 1px;
+        }
+        .tick{
+            height: 20px;
+            width: auto;
+            text-align: left;
+        }
+        .info{
+            font-family: "Open Sans", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+            font-size:14px;
+            margin-left: 40px;
+            text-align: left;
+            display: flex;
+            justify-content: flex-start;
+        }
+        .btn1{
+            width: 80%;
+            height: 45px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 10%;
+            color:white;
+            background-color: #ED0331;
+            border: none;
+            border-radius: 5px;
+            margin-top: 30px;
+            cursor: pointer;
+        }
+        .btn2{
+            width: 80%;
+            height: 45px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 10%;
+            color:white;
+            background-color: #ED0331;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        a{
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .course-box{
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 3px;
+            border-radius: 10px;
+            margin:0;
+        }
+        .btn1:hover{
+            background-color: #cd062e;
+        }
+        .btn2:hover{
+            background-color: #cd062e;
+        }
+       
+
+
+     </style>
+
+
+</head>
+<body>
+
+    <h1>Our Courses</h1>
+    <p class="overview">Practice-Based Learning Tracks, <span>Supercharged By A.I.<img src="https://www.masaischool.com/images/new-homepage/yellow-vector.svg" alt="underline"></span></p>
+    
+    <div id="courses">
+
+        <!-- Software developement course details -->
+
+        <div class="course-box">
+            <img class="course" src="https://www.masaischool.com/images/new-homepage/software-course-card.svg" alt="software development">
+
+            <h2>Software Development</h2>
+            <p class="job-ready">Become job-ready in 30-35 weeks.</p>
+            <hr/>
+           
+            <p class="info"><img class="tick" src="https://img.icons8.com/?size=2x&id=63262&format=png" alt="tick">&nbsp;&nbsp;&nbsp;Opportunities : Full Stack Developer, Backend <br>&nbsp;&nbsp;&nbsp;Developer, Software Engineer & much more. </p>
+            <p class="info"><img class="tick" src="https://img.icons8.com/?size=2x&id=63262&format=png" alt="tick">&nbsp;&nbsp;&nbsp;100% live learning with expert instructors.</p>
+            <p class="info"><img class="tick" src="https://img.icons8.com/?size=2x&id=63262&format=png" alt="tick">&nbsp;&nbsp;&nbsp;Pay After Placement</p>
+
+                <a href="masai_investors.html">
+                    <button class="btn1">
+                VIEW DETAILS
+            </button>
+        </a>
+            
+        </div>
+
+        <!-- Data analytics course details -->
+
+        <div class="course-box">
+            <img class="course" src="https://www.masaischool.com/images/new-homepage/data-analytics-card.svg" alt="data analytics">
+
+            <h2>Data Analytics</h2>
+            <p class="job-ready">Become job-ready in 30 weeks.</p>
+            <hr/>
+
+            <p class="info"><img class="tick" src="https://img.icons8.com/?size=2x&id=63262&format=png" alt="tick">&nbsp;&nbsp;&nbsp;Opportunities : Data Engineer, Data Analyst, <br>&nbsp;&nbsp;&nbsp;Machine Learning Engineer & much more. </p>
+            <p class="info"><img class="tick" src="https://img.icons8.com/?size=2x&id=63262&format=png" alt="tick">&nbsp;&nbsp;&nbsp;Learn from expert instructors and hands-on<br>&nbsp;&nbsp;&nbsp;&nbsp;assignments</p>
+            <p class="info"><img class="tick" src="https://img.icons8.com/?size=2x&id=63262&format=png" alt="tick">&nbsp;&nbsp;&nbsp;Pay After Placement</p>
+            
+            
+            <a href="masai_investors.html">
+                <button class="btn2">
+                VIEW DETAILS
+            </button>
+        </a>
+    
+
+        </div>
+    </div>
+
+
+    
+
+</body>
+</html>

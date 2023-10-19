@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Lab</title>
+    <style>
+
+        /* Navigation bar and study lab logo section css*/
+
+        *{
+            font-family:Poppins, Arial, sans-serif;
+        }
+
+    #nav-parent{
+        display: flex;
+        justify-content:center;
+        justify-content: space-between;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 25px 20px -20px;
+        height: fit-content;
+
+    }
+    .studylab-logo-div{
+        display: flex;
+        height: 50px;
+        width: auto;
+        margin-top: 0px;
+        margin-left: 50px;
+        
+    }
+
+    span{
+        display: flex;
+        align-content: space-around;
+        margin-right: 100px;
+    }
+
+    .nav-menu{
+        padding: 20px;
+        align-items: center;
+        display: flex;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    a:hover{
+        color:#4986fc;
+    }
+
+    /* Here the body part starts of study lab webapp css*/
+
+    /* Left div contents learning part css*/
+
+    #body-parent{
+        display: flex;
+        margin: 50px;
+        margin-top: 80px;
+        flex-wrap: wrap;
+        
+    }
+
+    .left-content{
+        display: block;
+        width: 50%;
+        height: fit-conten
+    }
+
+    .welcomeTSL{
+        font-size: 12px;
+        font-weight:900;
+        color: #4986fc;
+       
+    }
+
+
+   .heading{
+    color: #333333;
+    line-height:50px ;
+   }
+
+   .para{
+    color: #999999;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 500;
+   }
+
+   #image-div{
+    display: flex;
+   }
+   #students-image{
+    height: 100px;
+    width:170px;
+    margin-right: 30px;
+   }
+
+   .image-para{
+    line-height: 30px;
+    font-size: 18px;
+    color: #191919;
+   }
+
+
+
+
+    /* Right div contents learning part css*/
+
+    .right-content{
+        display: grid;
+        grid-template-columns: 200px 200px;
+        justify-content: space-around;
+        align-items: space-around;
+        width: 50%;
+        height: fit-content;
+        
+        
+    }
+    .boxes{
+        
+        height: 250px;
+        width: 200px;
+        padding-bottom: 20px;
+        margin-top: 10px;
+        box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+        padding-left: 20px;
+        padding-top: 10px;
+        
+    }
+    #icons{
+        width: 60px;
+        height: auto;
+        
+    }
+    .heading{
+        margin-top: 0;
+        font-size: 18px;
+        margin-bottom: 0;
+    }
+    .a-small-river{
+        color: #999999;
+        font-size: 18px;
+        line-height: 30px;
+        font-weight: 500;
+    }
+
+
+
+       
+    </style>
+</head>
+<body>
+
+    <!-- Navigation bar section -->
+
+<div id="nav-parent">
+  <div class="studylab-logo-div">
+    <img src="Assets/studylablogo.png" alt="studylab-logo">
+  </div>
+
+  <span class="nav-menu-div">
+    <div class="nav-menu"><a href="/">Home</a></div>
+    <div class="nav-menu"><a href="/">About</a></div>
+    <div class="nav-menu"><a href="/">Course</a></div>
+    <div class="nav-menu"><a href="/">Instructor</a></div>
+    <div class="nav-menu"><a href="/">Blog</a></div>
+    <div class="nav-menu"><a href="/">Contact</a></div>
+  </span>
+</div>
+
+<!-- Parent div of body section -->
+
+<div id="body-parent">
+
+    <!-- Left div content and info -->
+
+    <div class="left-content">
+        <p class="welcomeTSL">WELCOME TO STUDY LAB</p>
+        <h1 class="heading">We Are StudyLab An Online <br>Learning Center</h1>
+        <p class="para">A small river named Duden flows by their place and supplies it <br>with the necessary regelialia. It is a    paradisematic country, in <br>which roasted parts of sentences fly into your mouth.
+            <br><br>Far far away, behind the word mountains, far from the <br>countries Vokalia and Consonantia, there live the blind texts. <br>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+            <div id="image-div">
+                <img id="students-image" src="Assets/studentslearning.png" alt="">
+                <p class="image-para">Learn anything from StudyLab,<br>Watch video</p>
+            </div>
+    </div>
+    
+    <!-- Right div content and info with four child div's-->
+    
+    <div class="right-content">
+
+        <!-- "Top quality content" section -->
+
+        <div class="boxes">
+
+            <img id="icons" src="Assets/Top quality content.png" alt="">
+            <p class="heading">Top Quality Content</p>
+            <p class="a-small-river">A small river named <br>Duden flows by their <br>place and supplies</p>
+        </div>
+
+        <!-- "High skilled instructor" content section -->
+
+        <div class="boxes">
+
+            <img id="icons" src="Assets/high skilled instructor.png" alt="">
+            <p class="heading">Top Quality Content</p>
+            <p class="a-small-river">A small river named <br>Duden flows by their <br>place and supplies</p>
+        </div>
+
+        <!-- "World class quiz" content section -->
+
+        <div class="boxes">
+
+            <img id="icons" src="Assets/world class quiz.png" alt="">
+            <p class="heading">Top Quality Content</p>
+            <p class="a-small-river">A small river named <br>Duden flows by their <br>place and supplies</p>
+        </div>
+         
+        <!-- "Get certified" content section -->
+
+        <div class="boxes">
+
+            <img id="icons" src="Assets/get certified.png" alt="">
+            <p class="heading">Top Quality Content</p>
+            <p class="a-small-river">A small river named <br>Duden flows by their <br>place and supplies</p>
+        
+        
+        </div>
+    </div>
+</div>
+</body>
+</html>
